@@ -37,7 +37,7 @@ def date(client, message):
     }
 
     # Get the country from the message text if provided
-    country = "South Korea"  # Default to south korea
+    country = "UK"  # Default to south korea
     if len(message.command) > 1:
         country = " ".join(message.command[1:])
     
